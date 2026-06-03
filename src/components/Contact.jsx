@@ -17,7 +17,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await fetch("http://localhost:5000/api/contact", {
+    await fetch("https://portfolio-backend-qmy7.onrender.com/api/contact"), {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
